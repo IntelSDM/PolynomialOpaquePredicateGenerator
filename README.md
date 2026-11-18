@@ -8,6 +8,12 @@ Sure; most people symbolically execute, but its just an example of stepping up f
 <img width="905" height="672" alt="image" src="https://github.com/user-attachments/assets/24a853c2-f802-458c-abe7-24a2f44d1c1f" /> <br>
 
 
+## Annotations
+```c
+__attribute__((annotate("obfus")))
+``` 
+* Marks your function for the pass
+
 ## How To Build
 * Download [LLVM 19.1](https://github.com/llvm/llvm-project/releases/tag/llvmorg-19.1.0)
 * Download [VCPKG](https://github.com/microsoft/vcpkg)
